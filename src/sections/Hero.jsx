@@ -17,7 +17,7 @@ const Hero = () => {
     >
       <div
         className="relative xl:w-2/4 flex flex-col justify-center items-start w-full 
-      max-xl:padding-x p-28 mt-20"
+      max-xl:padding-x pt-28 max-container mt-20"
       >
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
