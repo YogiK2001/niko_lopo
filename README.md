@@ -2,7 +2,7 @@
 
 A modern, responsive landing page for Nike built with React and Vite.
 
-![Nike Landing Page Screenshot](https://niko-lopo.vercel.app/)
+![Nike Landing Page Screenshot](./screenshot.png)
 
 ## Features
 
