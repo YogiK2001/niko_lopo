@@ -10,6 +10,7 @@ import {
 } from "./sections/index.js";
 import Nav from "./components/Nav.jsx";
 import "./index.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
       <section className="padding-x padding-t pb-8 bg-black">
         <Footer />
       </section>
+      <SpeedInsights />
     </main>
   );
 };
