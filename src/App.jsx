@@ -10,7 +10,7 @@ import {
 } from "./sections/index.js";
 import Nav from "./components/Nav.jsx";
 import "./index.css";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   return (
