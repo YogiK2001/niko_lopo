@@ -30,7 +30,13 @@ const Nav = () => {
           <DarkSwitch />
         </ul>
         <div className="hidden max-lg:block">
-          <img src={hamburger} alt="menu" width={25} height={25} />
+          <img
+            src={hamburger}
+            alt="menu"
+            width={25}
+            height={25}
+            className="dark:text-slate-200 dark:filter dark:invert"
+          />
         </div>
       </nav>
     </header>

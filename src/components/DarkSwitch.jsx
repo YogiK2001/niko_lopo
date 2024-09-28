@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { darkswitch } from "../assets/icons";
 const DarkSwitch = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     if (isDarkMode) {
