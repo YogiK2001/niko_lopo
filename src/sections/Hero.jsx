@@ -26,15 +26,17 @@ const Hero = () => {
           className="mt-10 font-palanquin font-bold text-8xl
         max-sm:text-[72px] max-sm-leading-[82]"
         >
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-20 pr-10">
-            The New Arrival
+          <span className="relative z-20 pr-10">
+            <span className="xl:bg-white dark:text-white-400 xl:whitespace-nowrap dark:xl:bg-gray-800 ">
+              The New Arrival
+            </span>
           </span>
           <br />
           <span className="text-coral-red mt-3 inline-block">Nike</span> Shoes
         </h1>
         <p
           className="font-montserrat leading-8 text-slate-gray mt-6 mb-14
-        sm: max-w-sm "
+        sm: max-w-sm dark:text-white-400"
         >
           Discover stylish Nike arrivals, quality comfort and innovation for
           your active life
@@ -47,7 +49,7 @@ const Hero = () => {
           {statistics.map((stat) => (
             <div key={stat.label}>
               <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
-              <p className="leading-7 font-montserrat text-slate-gray">
+              <p className="leading-7 font-montserrat text-slate-gray dark:text-slate-300">
                 {stat.label}
               </p>
             </div>

@@ -12,10 +12,10 @@ const Button = ({
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
-          : "bg-coral-red rounded-full text-white border-coral-red hover:bg-white hover:text-coral-red hover:border-coral-red"
+          : "bg-coral-red rounded-full text-white dark:text-black border-coral-red hover:bg-coral-red hover:text-coral-red hover:border-coral-red "
       } rounded-full ${
         fullWidth && "w-full"
-      } transition-all duration-300 ease-in-out hover:scale-110`}
+      } transition-all duration-300 ease-in-out hover:scale-110  dark:text-slate-800`}
     >
       {label}
       {iconURL && (

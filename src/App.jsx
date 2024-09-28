@@ -92,7 +92,7 @@ const App = () => {
       </section>
       <section
         ref={customerReviewsRef}
-        className={`padding bg-pale-blue ${
+        className={`padding bg-pale-blue dark:bg-slate-600 ${
           customerReviewsInView ? "animate-fadeIn" : "opacity-0"
         }`}
       >
@@ -100,7 +100,7 @@ const App = () => {
       </section>
       <section
         ref={subscribeRef}
-        className={`padding-x sm:py-32 py-16 w-full ${
+        className={`padding-x sm:py-32 py-16 w-full  ${
           subscribeInView ? "animate-fadeIn" : "opacity-0"
         }`}
       >

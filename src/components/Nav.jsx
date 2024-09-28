@@ -1,6 +1,7 @@
 import { hamburger } from "../assets/icons";
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
+import DarkSwitch from "./DarkSwitch";
 
 const Nav = () => {
   return (
@@ -20,12 +21,13 @@ const Nav = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="font-montserrat leading-normal text-lg text-slate-gray dark:text-slate-500"
               >
                 {item.label}
               </a>
             </li>
           ))}
+          <DarkSwitch />
         </ul>
         <div className="hidden max-lg:block">
           <img src={hamburger} alt="menu" width={25} height={25} />

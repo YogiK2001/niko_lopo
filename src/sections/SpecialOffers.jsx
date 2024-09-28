@@ -23,14 +23,14 @@ const SpecialOffers = () => {
           <span className="text-coral-red"> Special </span> Offers
           <span className="text-coral-red"> For You </span>
         </h2>
-        <p className="info-text mt-4 lg:max-w-lg ">
+        <p className="info-text mt-4 lg:max-w-lg dark:text-slate-300">
           Embark on an odyssey through a universe crafted to fulfill your
           wildest dreams—far beyond the heights of your grandest aspirations.
           Your journey? Oh, its nothing less than a dazzling spectacle of epic
           proportions!
         </p>
         <br />
-        <p className="info-text mt-6 lg:max-w-lg ">
+        <p className="info-text mt-6 lg:max-w-lg dark:text-slate-300">
           Navigate a realm of possibilities designed to fulfill your unique
           desires, surpassing the loftiest expectations. Your journey witty us
           is nothing short of exceptiona!,

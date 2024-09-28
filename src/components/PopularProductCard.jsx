@@ -6,7 +6,7 @@ const PopularProductCard = ({ imgURL, name, price }) => {
       <img src={imgURL} alt={name} className="w-[280px] h-[280px]" />
       <div className="mt-8 flex justify-start gap-2.5">
         <img src={star} alt="rating" height={24} width={24} />
-        <p className="font-montserrat text-xl leading-normal text-slate-gray">
+        <p className="font-montserrat text-xl leading-normal text-slate-gray dark:text-slate-300">
           (4.5)
         </p>
       </div>

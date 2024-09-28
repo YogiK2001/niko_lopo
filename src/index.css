@@ -56,3 +56,12 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+@layer base {
+  .dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity)); /* bg-gray-400 */
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity)); /* text-white */
+  }
+}
